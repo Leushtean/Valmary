@@ -1,0 +1,52 @@
+.promo {
+	background-color: $accent2-color;
+
+
+	&__inner {
+		padding: 71px 0 138px;
+		position: relative;
+
+	}
+
+	&__content {
+		color: $title-color;
+		font-size: 20px;
+		position: relative;
+		
+	}
+
+	&__content-subtitle {
+		font-weight: 600;
+	}
+
+	&__content-title {
+		font-size: 65px;
+		font-weight: 700;
+		color: $accent-color;
+		line-height: 100%;
+		max-width: 590px;
+		margin-top: 12px;
+		position: relative;
+		right: 5px;
+	}
+
+	&__content-descr {
+		line-height: 118%;
+		max-width: 420px;
+		margin: 20px 0 57px;
+	}
+
+	&__content-btn {
+		display: flex;
+	}
+
+	&__btn {
+		margin-right: 20px;
+	}
+
+	&__image {
+		position: absolute;
+		bottom: 0;
+		right: -24px;
+	}
+}

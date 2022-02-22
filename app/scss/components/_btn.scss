@@ -1,0 +1,27 @@
+.btn {
+	height: 66px;
+	width: 285px;
+	border: 1px solid $accent-color;
+	&__reg {
+		display: block;
+		align-items: center;
+		background-color: $accent-color;
+		color: $white;
+		&:hover {
+			transform: translateY(-2px);
+			background-color: lighten($accent-color, 5%);
+			box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+		}
+	}
+	&__learn {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: $accent-color;
+		&:hover {
+			transform: translateY(-2px);
+			background-color: rgba($accent2-color, .6);
+			box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+		}
+	}
+}

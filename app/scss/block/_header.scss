@@ -8,16 +8,19 @@
 	&__top-inner {
 		display: flex;
 		align-items: center;
-		padding: 12px 0 10px;
+		padding: 11px 0 10px;
 	}
 
 	&__logo {
 		display: flex;
 		align-items: center;
+		position: relative;
+		top: 1px;
+		right: 1px;
 
 		span {
 			max-width: 125px;
-			margin-left: 10px;
+			margin-left: 11px;
 			font-size: 10px;
 			font-weight: 600;
 			line-height: 115%;
@@ -28,7 +31,7 @@
 		font-size: 25px;
 		color: $title-color;
 		padding-left: 50px;
-		margin-right: 80px;
+		margin-right: 79px;
 		margin-left: auto;
 		position: relative;
 
@@ -39,7 +42,7 @@
 			background-repeat: no-repeat;
 			width: 28px;
 			height: 28px;
-			top: 0;
+			top: -2px;
 			left: 0;
 		}
 	}

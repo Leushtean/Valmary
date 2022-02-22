@@ -1,0 +1,85 @@
+.header {
+	background-color: white;
+
+	&__top {
+		border-bottom: 1px solid $accent-color;
+	}
+
+	&__top-inner {
+		display: flex;
+		align-items: center;
+		padding: 12px 0 10px;
+	}
+
+	&__logo {
+		display: flex;
+		align-items: center;
+
+		span {
+			max-width: 125px;
+			margin-left: 10px;
+			font-size: 10px;
+			font-weight: 600;
+			line-height: 115%;
+		}
+	}
+
+	&__phone {
+		font-size: 25px;
+		color: $title-color;
+		padding-left: 50px;
+		margin-right: 80px;
+		margin-left: auto;
+		position: relative;
+
+		&::before {
+			content: "";
+			position: absolute;
+			background-image: url(../../images/icons/tel.svg);
+			background-repeat: no-repeat;
+			width: 28px;
+			height: 28px;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	&__social {
+		display: flex;
+		// margin-left: 75px;
+	}
+
+	&__social-item {
+		&~& {
+			margin-left: 26px;
+		}
+	}
+
+	&__lang-box {
+		background: linear-gradient(to right, #009A49 33%, rgb(240, 240, 240) 33%, rgb(240, 240, 240) 66%, #FF7900 66%);
+		width: 40px;
+		height: 25px;
+		margin-right: 25px;
+		margin-left: 67px;
+		position: relative;
+		&::after{
+			position: absolute;
+			content: "";
+			background-image: url(../../images/icons/lang_arrow.svg);
+			background-repeat: no-repeat;
+			width: 11px;
+			height: 7px;
+			top: 10px;
+			right: -25px;
+		}
+	}
+
+
+	&__bottom {
+		color: $title-color;
+	}
+
+	&__bottom-nav {
+		padding: 26px 0 26px;
+	}
+}

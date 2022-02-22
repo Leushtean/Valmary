@@ -1,0 +1,32 @@
+$accent-color: #55A630;
+$accent2-color: #ECF9EB;
+$title-color: #424242;
+$text-color: rgba(66, 66, 66, .8);
+$purple-color: #4340B4;
+$purple2-color: rgba(83, 81, 196, 0.1);
+$bg-color: #ECFFEB;
+$teal-color: #00A896;
+$teal2-color: rgba(0, 168, 150, 0.1);
+
+$default-color: #e5e5e5;
+
+$ff2: "raleway", sans-serif;
+
+@mixin overflow($line-clamp) {
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: $line-clamp;
+}
+
+@function max($numbers...) {
+	@return m#{a}x(#{$numbers});
+}
+
+@function min($numbers...) {
+	@return m#{i}n(#{$numbers});
+}
+
+// .content>*:not(:last-child) {
+// 	margin-bottom: 35px;
+// }

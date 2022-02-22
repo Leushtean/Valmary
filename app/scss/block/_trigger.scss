@@ -1,0 +1,32 @@
+.trigger {
+	
+
+	&__list {
+		display: flex;
+		text-align: center;
+		justify-content: space-between;
+		background-color: $white;
+		box-shadow: -2px 2px 20px 0px rgba(66, 66, 66, 0.15);
+		border-radius: 4px;
+		padding: 51px 51px 52px;
+
+	}
+
+	&__item {
+		max-width: 185px;
+	}
+
+	&__item-title {
+		font-size: 45px;
+		font-weight: 700;
+		color: $accent-color;
+		margin-bottom: 15px;
+	}
+
+	&__item-text {
+		font-size: 23px;
+		line-height: 100%;
+		font-weight: 400;
+	}
+
+}

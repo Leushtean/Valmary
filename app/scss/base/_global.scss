@@ -32,6 +32,10 @@ body {
 	max-width: 1230px;
 	margin: 0 auto;
 	padding: 0 15px;
+	&--large{
+		max-width: 1440px;
+		margin: 0 auto;
+	}
 }
 
 .none {
@@ -84,4 +88,8 @@ button {
 	font-weight: 700;
 	line-height: 121%;
 	color: $title-color;
+}
+.main .trigger{
+	position: relative;
+	margin-top: -25px;
 }

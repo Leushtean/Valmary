@@ -1,0 +1,281 @@
+.slider-wrap-block {
+	position: relative;
+
+	.btn_nav {
+
+		.sw-btn {
+			position: absolute;
+			top: 40.5%;
+			transform: translateY(-50%);
+			background-color: transparent;
+
+			&.card-swiper-prev {
+				left: -27px;
+			}
+
+			&.card-swiper-next {
+				right: -44px;
+			}
+		}
+	}
+}
+
+.card-swiper {
+	overflow: hidden;
+
+	.-pagination {
+		.swiper-pagination-bullet-active {
+			background-color: $accento-color;
+		}
+	}
+
+	.sl-pg {
+		display: flex;
+		justify-content: center;
+		margin-top: 75px;
+
+		span {
+			width: 15px;
+			height: 15px;
+			background-color: $accent-color;
+		}
+	}
+
+
+}
+
+
+
+
+
+
+
+
+.swiper {
+	&__title {
+		text-align: center;
+		margin-bottom: 83px;
+	}
+}
+
+
+
+.card {
+
+	&.purple{
+
+		.card__links-reg {
+			background-color: $purple-color;
+			color: $white;
+		}
+	
+		.card__links-detail {
+			background-color: $purple2-color;
+			color: $purple-color;
+		}
+	}
+
+	&.green {
+
+		.card__links-reg {
+			background-color: $accent-color;
+			color: $white;
+		}
+	
+		.card__links-detail {
+			background-color: $accent2-color;
+			color: $accent-color;
+		}
+	}
+
+	&.teal {
+		.card__links-reg {
+			background-color: $teal-color;
+			color: $white;
+		}
+	
+		.card__links-detail {
+			background-color: $teal2-color;
+			color: $teal-color;
+		}
+	
+	}
+
+
+	
+
+	&__uptitle {
+		color: $title-color;
+		margin-bottom: 14px;
+	}
+
+	&__title {
+		font-size: 30px;
+		line-height: 100%;
+		max-width: 205px;
+		letter-spacing: -0.4px;
+		margin-bottom: 23px;
+	}
+
+	&__status {
+		display: inline-block;
+		text-align: center;
+		color: $white;
+		padding: 10px;
+		border-radius: 9px;
+		max-width: 145px;
+		width: 100%;
+		margin-bottom: 24px;
+
+	}
+
+	&__date {
+		color: $title-color;
+	}
+
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+		margin-bottom: 58px;
+
+	}
+
+	&__descr {
+		font-family: $ff2;
+		font-size: 15px;
+		line-height: 175%;
+		font-weight: 400;
+		color: $text-color;
+		max-width: 165px;
+		padding-left: 9px;
+		margin-left: 4px;
+		border-left: 2px solid $text-color;
+		position: relative;
+		top: -3px;
+	}
+
+	&__img {
+		width: 135px;
+		height: 159px;
+		object-fit: contain;
+		position: relative;
+		right: 15px;
+	}
+
+	&__places {
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 91%;
+		color: $text-color;
+		margin-bottom: 4px;
+	}
+
+	&__links-btn {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__links-reg {
+		text-align: center;
+		align-items: center;
+		height: 56px;
+		background-color: $purple-color;
+		color: $white;
+		padding: 0 15px;
+	}
+
+	&__links-detail {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 56px;
+		background-color: $purple2-color;
+		color: $purple-color;
+		padding: 0 15px;
+	}
+
+
+	
+
+}
+
+.lesson-card {
+	background-color: ghostwhite;
+	box-shadow: -2px 2px 20px 0px rgba(66, 66, 66, 0.15);
+	font-size: 20px;
+	font-weight: 600;
+	padding: 16px;
+	position: relative;
+
+	&.purple {
+	
+		.card__title {
+			color: $purple-color;
+		}
+	
+		.card__status {
+			background-color: $purple-color;
+			color: $white;
+	
+		}
+	
+		.card__descr {
+			border-left: 2px solid $purple-color;
+		}
+	
+	
+	}
+
+	
+	&.green {
+
+		.card__title {
+			color: $accent-color;
+		}
+	
+		.card__status {
+			background-color: $accent-color;
+			color: $white;
+	
+		}
+	
+		.card__descr {
+			border-left: 2px solid $accent-color;
+		}
+	
+	
+	}
+
+	&.teal {
+
+		.card__title {
+			color: $teal-color;
+		}
+	
+		.card__status {
+			background-color: $teal-color;
+			color: $white;
+	
+		}
+	
+		.card__descr {
+			border-left: 2px solid $teal-color;
+		}
+	
+	
+	}
+	
+	
+
+	&::before {
+		content: "";
+		position: absolute;
+		background-image: url('../../images/icons/bird.svg');
+		background-repeat: no-repeat;
+		width: 44px;
+		height: 31px;
+		top: 16px;
+		right: 14px;
+	}
+}

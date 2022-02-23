@@ -1,4 +1,8 @@
 .trigger {
+	padding-bottom: 175px;
+	background-image: url('../../images/swiper/swiper-bg.svg');
+	background-repeat: no-repeat;
+	background-position: right top 25px;
 	
 
 	&__list {
@@ -9,6 +13,7 @@
 		box-shadow: -2px 2px 20px 0px rgba(66, 66, 66, 0.15);
 		border-radius: 4px;
 		padding: 51px 51px 52px;
+		margin-bottom: 182px;
 
 	}
 
@@ -29,4 +34,9 @@
 		font-weight: 400;
 	}
 
+}
+
+.main .trigger{
+	position: relative;
+	margin-top: -25px;
 }
